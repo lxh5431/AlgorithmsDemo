@@ -22,7 +22,7 @@ public class BinarySearch {
  @SuppressWarnings("deprecation")
 public static void main(String[] args)
  {
-	int [] whitelist=In.readInts(args[0]);
+	int [] whitelist=In.readInts("/a.txt");
 	Arrays.sort(whitelist);
 	while(!StdIn.isEmpty()){
 		int key=StdIn.readInt();
